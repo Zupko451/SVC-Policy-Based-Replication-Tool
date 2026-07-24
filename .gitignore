@@ -1,0 +1,17 @@
+# Credentials — never commit
+config.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Logs / debug output
+probe_output.txt
+*.log
