@@ -65,7 +65,7 @@ A web-based operations dashboard for IBM FlashSystem / SVC. Connects to the IBM 
 
 ```bash
 # 1. Navigate to the project folder
-cd "Bob-SVC-replica"
+cd "SVC-replica"
 
 # 2. Create a virtual environment (first time only)
 python3 -m venv .venv
@@ -148,7 +148,7 @@ Any unrecognised state is treated as Warning.
 
 ```bash
 # Using environment variables
-export IBM_SV_HOST="https://192.168.10.50:7443"
+export IBM_SV_HOST="https://192.168.0.1:7443"
 export IBM_SV_USER="admin"
 export IBM_SV_PASSWORD="password"
 export IBM_SV_VERIFY_SSL="false"    # for self-signed certs
@@ -202,7 +202,7 @@ Copy `config.json.example` to `config.json` and edit:
 
 ```json
 {
-  "host": "192.168.10.50",
+  "host": "192.168.0.1",
   "port": "7443",
   "username": "admin",
   "verify_ssl": false,
