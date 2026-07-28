@@ -79,6 +79,14 @@ python3 -m venv .venv
 
 Open **http://127.0.0.1:5000** in your browser.
 
+## Windows:
+
+Step	        README       Windows
+Create venv	               python -m venv .venv
+Install deps		           .venv\Scripts\pip install -r requirements.txt
+Run App                    .venv\Scripts\python app.py
+
+Open **http://127.0.0.1:5000** in your browser.
 ---
 
 ## Web UI — Workflow
